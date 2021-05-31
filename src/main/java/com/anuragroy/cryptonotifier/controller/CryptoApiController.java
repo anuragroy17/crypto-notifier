@@ -17,10 +17,6 @@ public class CryptoApiController {
 
     Logger log = LoggerFactory.getLogger(CryptoApiController.class);
 
-    // Find your Account Sid and Token at twilio.com/console
-    public static final String ACCOUNT_SID = "AC13f5a61453837badcfb0517814cc9755";
-    public static final String AUTH_TOKEN = "9ab373b01da02da048f725f0d509acd4";
-
     @Autowired
     private CryptoService cryptoService;
 
